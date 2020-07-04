@@ -8,7 +8,7 @@ rm -rf $1/product/app/Duo
 rm -rf $1/product/app/Maps
 rm -rf $1/product/app/YouTube
 rm -rf $1/product/app/talkback
-#rm -rf $1/app/Chrome
+rm -rf $1/app/Chrome
 rm -rf $1/product/app/CalendarGoogle
 rm -rf $1/product/app/Photos
 rm -rf $1/app/GooglePay
@@ -45,7 +45,9 @@ rm -rf $1/reserve/JD
 rm -rf $1/reserve/Meituan
 rm -rf $1/reserve/NeteaseCloudmusic
 rm -rf $1/reserve/NeteaseMail
-
+rm -rf $1/product/priv-app/AndroidAutoStub
+rm -rf $1/app/Calculator
+rm -rf $1/priv-app/OnePlusCameraService
 # RIL FIX
 rm -rf $1/product/framework/op-telephony-common.jar
 
